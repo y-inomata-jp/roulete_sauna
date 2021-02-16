@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+
+/* base */
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h1{
+  font-size: 24px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 19px;
+  color: #333;   
+}
+
+input,textarea{
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+}
+
+input:focus,textarea:focus {
+  border:solid 3px #3ba6c9;
+}
+
+input::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+*, *::befoe, *::after {
+  box-sizing: border-box;
+}
+
+.hidden{
+  display: none;
+}
+
+.contents-center{
+  text-align: center;
+}
+
+.contents-left{
+  text-align: left;
+}
+
+.contents-right{
+  text-align: right;
+}
